@@ -8,10 +8,10 @@ namespace Inheritance
 {
     public class Bird:Animal
     {
-        public string type { get; set; }
-        public string color { get; set; }
-        public bool canFly { get; set; }
+        public string Type { get; set; }
+        public string Color { get; set; }
+        public bool CanFly { get; set; }
 
-        public string size { get; set; }
+        public string Size { get; set; }
     }
 }

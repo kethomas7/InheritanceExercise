@@ -8,12 +8,12 @@ namespace Inheritance
 {
     public class Animal
     {
-        public int age{ get; set;}
-        public int legCount { get; set; }
+        public int Age{ get; set;}
+        public int LegCount { get; set; }
 
-        public string landSeaAir { get; set;}
+        public string LandSeaAir { get; set;}
 
-        public bool isNocturnal { get; set; }
+        public bool IsNocturnal { get; set; }
 
 
 

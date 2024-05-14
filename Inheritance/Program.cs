@@ -21,8 +21,6 @@ namespace Inheritance
             // Set this class to inherit from your Animal Class-Done
 
 
-
-
             /*Create an object of your Bird class
              *  give values to your members using the object of your Bird class
              *  
@@ -31,14 +29,14 @@ namespace Inheritance
 
             var Bird1 = new Bird()
             {
-                size = "small",
-                type = "Eagle",
-                canFly = true,
-                color = "Black",
-                age = 2,
-                legCount = 2
+                Size = "Small",
+                Type = "Eagle",
+                CanFly = true,
+                Color = "Black",
+                Age = 2,
+                LegCount = 2
             };
-            Console.WriteLine($"Here are some details regarding your bird:\nSize: {Bird1.size}\nType: {Bird1.type}\nCan it fly? {Bird1.canFly}\nColor: {Bird1.color}\nAge: {Bird1.age}\nLeg Count: {Bird1.legCount}");
+            Console.WriteLine($"Here are some details regarding your bird:\nSize: {Bird1.Size}\nType: {Bird1.Type}\nCan it fly? {Bird1.CanFly}\nColor: {Bird1.Color}\nAge: {Bird1.Age}\nLeg Count: {Bird1.LegCount}");
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
@@ -48,13 +46,17 @@ namespace Inheritance
 
             var snake = new Reptile()
             {
-                age = 5,
-                landSeaAir = "Land",
-                legCount = 0,
-                isNocturnal = false
+                Type = "Anaconda",
+                IsPoisonus = true,
+                Color= "Dark grey",
+                Length = "19.2in",
+                Age = 5,
+                LandSeaAir = "Land",
+                LegCount = 0,
+                IsNocturnal = false
             };
 
-            Console.WriteLine($"Here are some details regarding your reptile:\nDoes it live on land, in the sea, or in the sky? {snake.landSeaAir}\nIs it nocturnal? {snake.isNocturnal}\nAge: {snake.age}\nLeg Count: {snake.legCount}");
+            Console.WriteLine($"Here are some details regarding your reptile:\nType: {snake.Type} \nIs it poisonus? {snake.IsPoisonus} \nColor: {snake.Color} \nLength: {snake.Length}\nDoes it live on land, in the sea, or in the sky? {snake.LandSeaAir}\nIs it nocturnal? {snake.IsNocturnal}\nAge: {snake.Age}\nLeg Count: {snake.LegCount}");
         }
     }
 }

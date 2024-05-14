@@ -8,5 +8,11 @@ namespace Inheritance
 {
     public class Reptile:Animal
     {
+        public string Type { get; set;}
+        public string Color { get; set;}
+
+        public bool IsPoisonus { get; set;}
+
+        public string Length { get; set;}
     }
 }
